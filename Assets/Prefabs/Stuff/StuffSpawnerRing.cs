@@ -6,6 +6,7 @@ public class StuffSpawnerRing : MonoBehaviour {
     public float        radius              = 5;
     public float        tiltAngle           = 45;
     public StuffSpawner spawnerPrefab;
+    public Material[]   stuffMaterials;
 
 	void Awake () {
         for (int i = 0; i < numberOfSpawners; i++) {
@@ -23,5 +24,7 @@ public class StuffSpawnerRing : MonoBehaviour {
         spawner.transform.SetParent (rotator, false);
         spawner.transform.localPosition = new Vector3 (0f, 0f, radius);
         spawner.transform.localRotation = Quaternion.Euler (tiltAngle, 0f, 0f);
+
+        spawner.stuffMaterial = stuffMaterials [index % stuffMaterials.Length];
     }
 }
