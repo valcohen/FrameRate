@@ -10,11 +10,6 @@ public class NucleonSpawner : MonoBehaviour {
 
     float timeSinceLastSpawn;
 
-    // Use this for initialization
-	void Start () {
-		
-	}
-
     // FixedUpdate keeps spawning independent of frame rate
 	void FixedUpdate () {
         timeSinceLastSpawn += Time.deltaTime;
