@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 114280054268472720}
   - component: {fileID: 54617669280985340}
   m_Layer: 0
-  m_Name: Neutron
+  m_Name: Anotheron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39,7 +39,7 @@ Transform:
   m_GameObject: {fileID: 1172244094978874}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -58,7 +58,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7837966f0f77147f4a32cc2a48b4ea6d, type: 2}
+  - {fileID: 2100000, guid: d90207caea1264ad196a03da3c6e864c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
