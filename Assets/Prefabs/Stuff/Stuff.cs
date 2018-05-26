@@ -23,4 +23,11 @@ public class Stuff : PooledObject {
             ReturnToPool ();
         }
     }
+
+    // TODO: replace this deprecated API:
+    // This message has been deprecated and will be removed in a later version of Unity.
+    // Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+    void OnLevelWasLoaded() {
+        ReturnToPool ();
+    }
 }

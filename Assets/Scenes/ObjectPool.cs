@@ -45,6 +45,7 @@ public class ObjectPool : MonoBehaviour {
         }
 
         obj  = new GameObject (poolName);
+        DontDestroyOnLoad (obj);
         pool = obj.AddComponent<ObjectPool> ();
         pool.prefab = prefab;
 
