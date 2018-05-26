@@ -66,5 +66,7 @@ MonoBehaviour:
   stuffPrefabs:
   - {fileID: 114367176709287016, guid: dc3fab65fe6b6403b88f501f41de4e46, type: 2}
   - {fileID: 114018140317473208, guid: 07485ab977416433685a2aac20a2c5b0, type: 2}
+  - {fileID: 114853401118469100, guid: 06696bd5eeaf84bd58b860e2aaba9a8a, type: 2}
+  - {fileID: 114630492997180124, guid: 5a31338f664a3455b991b20faa6de29d, type: 2}
   velocity: 20
   stuffMaterial: {fileID: 2100000, guid: 4c57bc75c6eb64b7aa98d451f11b2370, type: 2}

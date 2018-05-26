@@ -26,7 +26,7 @@ public class StuffSpawner : MonoBehaviour {
 
         // instantiate it
         Stuff spawn = Instantiate<Stuff> (prefab);
-        spawn.GetComponent<MeshRenderer> ().material = stuffMaterial;
+        spawn.SetMaterial (stuffMaterial);
 
         // position it
         spawn.transform.localPosition = transform.position;
